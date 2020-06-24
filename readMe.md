@@ -44,7 +44,7 @@ Top level directory has the following directories -
 
 * Archives (this stores all the archives)
 * Code (this stores all the problem folders and files)
-* python_template.py (this file contains the editabele python file in which you can add your template)
+* python_template.py (this file contains the editable python file in which you can add your template)
 * java_template.java (this file contains the editable java file in which you can add your template)
 * config.json (this file contains all settings required for the bot to run)
 * bot.py (This has the source code of the bot)
