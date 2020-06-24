@@ -14,9 +14,9 @@ class Bot:
         print("bot initiated")
         
         
-        self.configNames = {
+        self.configNames = [
             "javaTemplate", "pythonTemplate", "archivePath", "workingFolderPath"
-        }
+        ]
 
         self.configData = {}
         self.home = os.getcwd()
@@ -95,16 +95,16 @@ class Bot:
 
     #utility function to run comfiguration process
     def runConfig(self):
-        print(self.configData)
 
         paths = []
 
-        paths.append(os.path.join(sys.path[0], "java_template.py"))
+        paths.append(os.path.join(sys.path[0], "java_template.java"))
         paths.append(os.path.join(sys.path[0], "python_template.py"))
         paths.append(os.path.join(sys.path[0], "Archives"))
         paths.append(os.path.join(sys.path[0], "code"))
 
         for i,items in enumerate(self.configNames):
+
             if len(self.configData[items]) == 0:
                 self.configData[items] = paths[i]
 
