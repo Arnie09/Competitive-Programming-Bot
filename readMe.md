@@ -20,11 +20,11 @@ This bot can do the following -
 * Quickly create the directory structure of a contest with files containing your template code. It also generates testing files.
 * The bot runs your code and evaluates the result against the test files present, giving you a verdict.
 
-        ![running-python](images/Capture1.PNG) ![running-java](images/Capture2.PNG)
+![running-python](images/Capture1.PNG) ![running-java](images/Capture2.PNG)
 
 * The bot archives all contest files and code that you had written to be stored away. 
 
-        ![archive](images/Capture3.PNG)
+![archive](images/Capture3.PNG)
 
 ### Okay so how do I use this? 
 
@@ -40,19 +40,14 @@ To archive a contest say *python bot.py archive*
 
 The project has the following directory structure - 
 
-Top level directory
-        |
-        |--------> Archives (this stores all the archives)
-        |
-        |--------> Code (this stores all the problem folders and files)
-        |
-        |--------> python_template.py (this file contains the editabele python file in which you can add your template)
-        |
-        |--------> java_template.java (this file contains the editable java file in which you can add your template)
-        |
-        |--------> config.json (this file contains all settings required for the bot to run)
-        |
-        |--------> bot.py (This has the source code of the bot)
+Top level directory has the following directories - 
+
+* Archives (this stores all the archives)
+* Code (this stores all the problem folders and files)
+* python_template.py (this file contains the editabele python file in which you can add your template)
+* java_template.java (this file contains the editable java file in which you can add your template)
+* config.json (this file contains all settings required for the bot to run)
+* bot.py (This has the source code of the bot)
 
 
 
